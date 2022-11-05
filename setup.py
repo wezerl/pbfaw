@@ -6,7 +6,7 @@ from os import path
 
 from setuptools import find_packages, setup
 
-PACKAGE_NAME = "praw"
+PACKAGE_NAME = "praw_ssi"
 HERE = path.abspath(path.dirname(__file__))
 with open(path.join(HERE, "README.rst"), encoding="utf-8") as fp:
     README = fp.read()

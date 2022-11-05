@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f5b6685-7843-493d-a302-b0f47e98ab8e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/praw/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/const.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/endpoints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/images/PRAW logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/comment_forest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/front.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/inbox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/list/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/list/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/list/draft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/list/moderated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/list/redditor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/list/trophy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/domain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/listing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/mixins/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/mixins/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/mixins/gilded.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/mixins/redditor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/mixins/rising.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/mixins/submission.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/listing/mixins/subreddit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/mod_action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/mod_note.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/mod_notes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/preferences.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/draft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/emoji.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/inline_media.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/live.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/editable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/fullname.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/gildable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/inboxable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/inboxtoggleable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/messageable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/modnote.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/replyable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/reportable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/savable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/mixins/votable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/modmail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/multi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/poll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/redditor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/removal_reasons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/rules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/submission.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/subreddit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/user_subreddit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/widgets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/reddit/wikipage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/redditors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/stylesheet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/subreddits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/trophy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/models/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/objector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/praw.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/reddit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/util/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/util/deprecate_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/util/snake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praw/util/token_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GSUiFLh97ixgt2uaGszYbhn3fZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "F:/GitHub/praw_old"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f5b6685-7843-493d-a302-b0f47e98ab8e" name="Changes" comment="" />
+      <created>1666381604133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666381604133</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
