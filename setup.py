@@ -6,7 +6,7 @@ from os import path
 
 from setuptools import find_packages, setup
 
-PACKAGE_NAME = "praw_ssi"
+PACKAGE_NAME = "pbfaw"
 HERE = path.abspath(path.dirname(__file__))
 with open(path.join(HERE, "README.rst"), encoding="utf-8") as fp:
     README = fp.read()
@@ -30,8 +30,8 @@ extras["dev"] += extras["lint"] + extras["test"]
 
 setup(
     name=PACKAGE_NAME,
-    author="Bryce Boe",
-    author_email="bbzbryce@gmail.com",
+    author="Wezerl",
+    author_email="Wezerlsstuff@gmail.com",
     python_requires="~=3.7",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -64,10 +64,8 @@ setup(
     package_data={"": ["LICENSE.txt"], PACKAGE_NAME: ["*.ini", "images/*.png"]},
     packages=find_packages(exclude=["tests", "tests.*", "tools", "tools.*"]),
     project_urls={
-        "Change Log": "https://praw.readthedocs.io/en/latest/package_info/change_log.html",
-        "Documentation": "https://praw.readthedocs.io/",
-        "Issue Tracker": "https://github.com/praw-dev/praw/issues",
-        "Source Code": "https://github.com/praw-dev/praw",
+        "Issue Tracker": "https://github.com/wezerl/praw/issues",
+        "Source Code": "https://github.com/wezerl/praw",
     },
     version=VERSION,
 )
